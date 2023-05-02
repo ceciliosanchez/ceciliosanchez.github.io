@@ -1,10 +1,10 @@
 # ceciliosanchez.github.io
 
-Name: Cecilo Sanchez's JavaScript Portfolio.
+<b>Name:</b> Cecilo Sanchez's JavaScript Portfolio.
 </br>
-Description: I compiled here miscellaneous work samples while I was studyng and practicing JavaScript coding.
+<b>Description:</b> I compiled here miscellaneous work samples while I was studyng and practicing JavaScript coding.
 </br>
-Support: Reach out at http://ceciliosanchez.com/contact/
+<b>Support:</b> Reach out at http://ceciliosanchez.com/contact/
 </br>
-License information: MIT License
+<b>License information:</b> MIT License
 </br>
