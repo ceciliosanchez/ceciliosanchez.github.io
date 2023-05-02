@@ -1,7 +1,8 @@
+# Cecilio Sanchez's Portfolio
 
 ## Name
 
-Cecilo Sanchez's JavaScript Portfolio.
+My JavaScript Portfolio.
 
 ## Description
 
