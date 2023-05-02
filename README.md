@@ -1,4 +1,3 @@
-# ceciliosanchez.github.io
 
 ## Name
 
