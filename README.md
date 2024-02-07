@@ -6,7 +6,7 @@ My JavaScript Portfolio.
 
 ## Description
 
-I compiled here miscellaneous work samples while I was studyng and practicing JavaScript coding. Hence, this shows as a portfolio to showcase my skill-set to potential clients.
+This portfolio presents a collection of diverse work samples from my time studying and practicing JavaScript coding, serving as a showcase of my skills to prospective clients.
 
 ## Support
 
