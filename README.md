@@ -2,7 +2,7 @@
 
 ## Name
 
-My JavaScript Portfolio.
+Personal MERN Stack Portfolio.
 
 ## Description
 
