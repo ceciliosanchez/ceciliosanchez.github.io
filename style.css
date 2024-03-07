@@ -1,0 +1,80 @@
+body {
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #eef1f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d3dce6;
+}
+
+footer {
+  background-color: #eef1f5;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #d3dce6;
+}
+
+.CS {
+  color: #1a4b75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px 0;
+  color: #34699a;
+}
+
+a {
+  color: #2a6496;
+  text-decoration: none;
+}
+
+.photo { 
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 14px #a9a9a9;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 15px;
+}
+
+.sidebar {
+  background-color: #f1f4f8;
+  padding: 20px;
+  border-right: 1px solid #d3dce6;
+}
+
+.content {
+  padding: 20px;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.col-sm-3, .col-sm-9, .col-8, .col-4 {
+  padding: 15px;
+}
+
+#content {
+  margin: 5%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+i, svg {
+  padding-right: 10px;
+}
