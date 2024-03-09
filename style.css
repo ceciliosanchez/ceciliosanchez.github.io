@@ -5,11 +5,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  border-collapse: collapse;
 }
 
 header {
   background-color: #eef1f5;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-bottom: 1px solid #d3dce6;
 }
@@ -23,12 +24,12 @@ footer {
 }
 
 .CS {
-  color: #1a4b75;
+  color: #abb3ba;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px 0;
-  color: #34699a;
+  color: #4075a7;
 }
 
 a {
@@ -46,12 +47,12 @@ a {
 }
 
 .container {
-  padding: 15px;
+  padding: 0px;
 }
 
-.sidebar {
+aside {
   background-color: #f1f4f8;
-  padding: 20px;
+  padding: 100px;
   border-right: 1px solid #d3dce6;
 }
 
@@ -63,8 +64,11 @@ a {
   margin: 0 -15px;
 }
 
-.col-sm-3, .col-sm-9, .col-8, .col-4 {
-  padding: 15px;
+.col-sm-3, .col-sm-9 {
+  padding: 50px;
+}
+.col-sm-6 {
+  padding: 0px;
 }
 
 #content {
