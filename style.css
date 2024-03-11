@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  /* background-image: url('./asset-images/Img-Portfolio-Code.jpg'); */
   background-color: #eef1f5;
   padding: 30px;
   text-align: center;
@@ -23,8 +24,13 @@ footer {
   border-top: 1px solid #d3dce6;
 }
 
-.CS {
+.CS, .Repo {
   color: #abb3ba;
+}
+
+.Repo {
+  color: #547182;
+  letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,6 +43,20 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(223, 230, 234);
+}
+li a:hover {
+  background-color: #202022;
+  border: 5px rgb(129, 156, 187);
+}
 .photo { 
   width: 250px;
   height: 250px;
@@ -51,7 +71,7 @@ a {
 }
 
 aside {
-  background-color: #f1f4f8;
+  background-color: #0f141b;
   padding: 100px;
   border-right: 1px solid #d3dce6;
 }
@@ -81,4 +101,15 @@ aside {
 
 i, svg {
   padding-right: 10px;
+  float: left;
+  display: block;
+}
+
+a .social {
+  display: block;
+  float: left;
+  color: rgb(95, 112, 112);
+  text-align: right;
+  padding: 5px;
+  text-decoration: none;
 }
