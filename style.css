@@ -2,10 +2,8 @@ body {
   font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
   background-color: #f7f9fc;
   color: #333;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
-  border-collapse: collapse;
 }
 
 header {
@@ -24,11 +22,16 @@ footer {
   border-top: 1px solid #d3dce6;
 }
 
-.CS, .Repo {
+.container-fluid {
+  padding: 0px;
+  width: 100%;
+}
+
+#headerTitle {
   color: #abb3ba;
 }
 
-.Repo {
+#Repo {
   color: #547182;
   letter-spacing: 1px;
 }
@@ -66,14 +69,15 @@ li a:hover {
   margin-bottom: 50px;
 }
 
-.container {
-  padding: 0px;
+#sidebarleft {
+  background-color: #0f141b;
+  padding: 5% 10px 10% 5%;
+  border-right: 1px solid #d3dce6;
+  float: left;
 }
 
-aside {
-  background-color: #0f141b;
-  padding: 100px;
-  border-right: 1px solid #d3dce6;
+.sidebar {
+  float: left;
 }
 
 .content {
@@ -81,31 +85,18 @@ aside {
 }
 
 .row {
-  margin: 0 -15px;
+  margin: 0 0px;
 }
 
-.col-sm-3, .col-sm-9 {
-  padding: 50px;
+.col-sm-3 {
+  padding: 5% 10px 10% 5%;
 }
 .col-sm-6 {
-  padding: 0px;
+  margin:  5% 0px 10% 0px;
+  padding: 5% 3% 10% 5%;
 }
 
-#content {
-  margin: 5%;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-}
-
-i, svg {
-  padding-right: 10px;
-  float: left;
-  display: block;
-}
-
-a .social {
+a.social {
   display: block;
   float: left;
   color: rgb(95, 112, 112);
