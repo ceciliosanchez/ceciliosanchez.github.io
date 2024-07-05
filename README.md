@@ -13,10 +13,10 @@ My front-end expertise includes JavaScript, CSS/HTML, React, React Native, jQuer
 
 I primarily develop using Visual Studio Code (VSCode). My technical proficiency extends to Linux CLI, domain and DNS management, AWS setup, and end-to-end project deployment.
 
-## Support
+## Reach out
 
-Reach out at http://ceciliosanchez.com/contact/
+http://ceciliosanchez.com/contact/
 
-## License information
+## License
 
-MIT License
+This project is licensed under the MIT License.
