@@ -39,6 +39,7 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px 0;
   color: #4075a7;
+  
 }
 
 a {
@@ -61,12 +62,13 @@ li a:hover {
   border: 5px rgb(129, 156, 187);
 }
 .photo { 
-  width: 250px;
-  height: 250px;
+  align: center;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
   box-shadow: 0px 0px 14px #a9a9a9;
   object-fit: cover;
-  margin-bottom: 50px;
+  margin-bottom: 40%;
 }
 
 #sidebarleft {
@@ -78,6 +80,25 @@ li a:hover {
 
 .sidebar {
   float: left;
+}
+
+.sidebar h5 {
+  text-align: center;
+}
+
+.sidebar h5 a {
+  color: #5a7a9b; /* Change this to the shade of blue you prefer */
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar h5 a:hover {
+  color: #104e8b; /* Darker blue on hover */
+  text-decoration: none; /* Keep underline removed on hover */
 }
 
 .content {
