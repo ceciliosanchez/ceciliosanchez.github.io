@@ -2,16 +2,9 @@
 
 ## Full Stack Software Developer in MERN
 
-JavaScript, CSS/HTML, Bootstrap, Node.JS, Express, React, Redux, GraphQL & MongoDB.
-
-
-## Greetings!
-
-I am Cecilio Sanchez, currently residing in Manhattan, New York City, with a specialization in full stack software development.
-
-My front-end expertise includes JavaScript, CSS/HTML, React, React Native, jQuery, and Bootstrap. On the back-end, I am proficient in Node.js, Express, RESTful APIs, Redux, and various JavaScript libraries. My database management skills cover MongoDB/Mongoose, Cassandra, MySQL, and Microsoft SQL Server. Additionally, I am skilled in using Jest (Node.js) for testing.
-
-I primarily develop using Visual Studio Code (VSCode). My technical proficiency extends to Linux CLI, domain and DNS management, AWS setup, and end-to-end project deployment.
+**Cecilio Sanchez, residing in Manhattan, New York City,** has specialized in full stack software development.
+His expertise in front-end development encompasses JavaScript, CSS/HTML, React, React Native, JQuery, and Bootstrap. On the back-end, he excels in Node.JS, Express, Restful APIs, Redux, alongside various JavaScript libraries. His database management skills include MongoDB/Mongoose, Casandra, MySQL, and Microsoft SQL Server. He is proficient in Jest (Node.JS) for testing.
+He primarily uses Visual Studio Code (VSCode) for development. His technical skills extend to Linux CLI, domain and DNS management, AWS setup, and project deployment from start to finish.
 
 ## Reach out
 
