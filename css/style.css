@@ -1,17 +1,7 @@
-body {
-  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
-  background-color: #f7f9fc;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
 
 header {
   /* background-image: url('./asset-images/Img-Portfolio-Code.jpg'); */
   background-color: #eef1f5;
-  padding: 30px;
-  text-align: center;
-  border-bottom: 1px solid #d3dce6;
 }
 
 footer {
@@ -27,10 +17,6 @@ footer {
   width: 100%;
 }
 
-#headerTitle {
-  color: #abb3ba;
-}
-
 #Repo {
   color: #547182;
   letter-spacing: 1px;
@@ -39,7 +25,6 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px 0;
   color: #4075a7;
-  
 }
 
 a {
@@ -58,7 +43,6 @@ li a {
   color: rgb(223, 230, 234);
 }
 li a:hover {
-  background-color: #202022;
   border: 5px rgb(129, 156, 187);
 }
 .photo { 
