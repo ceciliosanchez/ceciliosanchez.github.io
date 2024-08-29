@@ -86,10 +86,10 @@ li a:hover {
   text-decoration: none; /* Keep underline removed on hover */
 }
 
-.col-sm-3 {
-  padding: 5% 10px 0 4%;
+.col-md-3 {
+  padding: 5% 5% 0 4%;
 }
-.col-sm-6 {
+.col-md-6 {
   padding: 5% 3% 10% 5%;
 }
 
