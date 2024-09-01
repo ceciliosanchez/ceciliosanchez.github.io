@@ -1,34 +1,21 @@
-
 header {
   /* background-image: url('/img/Bkground-ln.jpg'); */
   background-color: #eef1f5;
 }
 
-.container-fluid {
-  padding: 0px;
-  width: 100%;
+.content p {
+  text-align: justify;
+  color: #444444;
 }
 
-footer {
-  background-color: #eef1f5;
-  color: #959595;
-  text-align: center;
-  padding: 10px;
-  border-top: 1px solid #d3dce6;
-}
-
-#Repo {
-  color: #547182;
-  letter-spacing: 1px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 15px 0;
+h1, h2, h3, h4 {
+  margin: 0 0 40px 0;
   color: #4075a7;
 }
 
-.modern-font {
-  font-family: 'Roboto', sans-serif;
+h5, h6 {
+  margin: 0 0 10px 0;
+  color: #4075a7;
 }
 
 a {
@@ -36,19 +23,13 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-  padding: 10px;
+.col-md-3 {
+  padding: 5% 5% 0 4%;
+}
+.col-md-6 {
+  padding: 5% 3% 10% 5%;
 }
 
-li a {
-  list-style: none;
-  text-decoration: none;
-  color: rgb(223, 230, 234);
-}
-li a:hover {
-  border: 5px rgb(129, 156, 187);
-}
 .photo { 
   align: center;
   width: 210px;
@@ -56,25 +37,29 @@ li a:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 14px #a9a9a9;
   object-fit: cover;
-  margin-bottom: 40%;
-}
-
-#sidebarleft {
-  background-color: #0f141b;
-  margin-top: 0;
-  padding: 5% 10px 10% 5%;
-  border-right: 1px solid #d3dce6;
-  float: left;
+  margin-bottom: 35%;
 }
 
 .sidebar {
-  float: left;
-}
-
-.sidebar h5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 100%;
+  margin-top: 0;
+  padding-left: 15px; /* Default padding */
 }
 
+@media (max-width: 768px) {
+  .sidebar {
+      padding-left: 30px; /* Increased padding for smaller screens */
+  }
+
+}#Repo {
+  color: #547182;
+  letter-spacing: 1px;
+}
 .sidebar h5 a {
   color: #5a7a9b; /* Change this to the shade of blue you prefer */
   text-decoration: none;
@@ -90,18 +75,45 @@ li a:hover {
   text-decoration: none; /* Keep underline removed on hover */
 }
 
-.col-md-3 {
-  padding: 5% 5% 0 4%;
-}
-.col-md-6 {
-  padding: 5% 3% 10% 5%;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-a.social {
-  display: block;
-  float: left;
-  color: rgb(95, 112, 112);
-  text-align: right;
-  padding: 5px;
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ul li a {
   text-decoration: none;
+  color: rgb(10, 81, 136);
+  display: flex;
+  align-items: center;
+}
+
+ul li a:hover {
+  color:rgb(77, 190, 224);
+}
+
+ul li .icon {
+  width: 27px;
+  height: 27px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }
