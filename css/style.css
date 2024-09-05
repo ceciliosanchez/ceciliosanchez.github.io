@@ -30,6 +30,13 @@ a {
   padding: 5% 3% 10% 5%;
 }
 
+.extra-space {
+  margin-top: 70px;
+}
+.icon {
+  margin: 4px;
+}
+
 .photo { 
   align: center;
   width: 210px;
