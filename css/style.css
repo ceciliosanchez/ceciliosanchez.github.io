@@ -18,6 +18,10 @@ h5, h6 {
   color: #4075a7;
 }
 
+.unique-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
 a {
   color: #2a6496;
   text-decoration: none;
